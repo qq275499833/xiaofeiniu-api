@@ -1,4 +1,4 @@
-//创建mysql连接
+//创建mysql数据库连接池
 const mysql=require('mysql');
 
 var pool=mysql.createPool({
